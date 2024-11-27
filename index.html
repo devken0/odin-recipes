@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="./recipes/macandcheese.html">Homemade Mac and Cheese</a></li>
-      <li><a href="./recipes/honeyoatmilklatte.html">Starbucks Copycat Honey Oatmilk Latte</a></li>
-      <li><a href="./recipes/chocopeanutproteinbars.html">Chocolate Peanut Butter Protein Bars</a></li>
+    <h1 class="logo-header logo-title-1">Odin <span class="header logo-title-2">Recipes</span></h1>
+    <button id="theme-toogle" onclick="toogleColorScheme()"><i id="theme-icon" class="fa fa-sun-o" aria-hidden="true"></i></button>
+    <ul class="main-dishes-list">
+      <li><strong>Most Popular Dishes</strong><img src="https://www.allrecipes.com/thmb/9Jle2Xv6yltYDbhV_DCjal68gls=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-11679-Homemade-Mac-and-Cheese-ddmfs-4x3-6a3167c5e01e44a4a081942be2baab12.jpg" alt="A homemade mac and cheese." 
+    title="Homemade Mac and Cheese Recipe | allrecipes.com" height="400px" width="500px"><a href="./recipes/macandcheese.html">Homemade Mac and Cheese</a></li>
+      <li><img src="https://www.allrecipes.com/thmb/1_XeT8k6xEjdhyGSw56L8AFIt-I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8553657_Starbucks-Copycat-Honey-Oatmeal-Latte_Yolanda-Gutierrez_4x3-96606f463c3b4ea5af1cb962aa234289.jpg" alt="A glass of honey oatmilk latte." 
+    title="Starbucks Honey Oatmilk Latte Recipe | allrecipes.com" height="400px" width="500px"><a href="./recipes/honeyoatmilklatte.html">Starbucks Copycat Honey Oatmilk Latte</a></li>
+      <li><img src="https://www.allrecipes.com/thmb/yb8R-S6bRPklxzICGunQRRCYIwU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8421618_Chocolate-Peanut-Butter-Protein-Bars_Yolanda-Gutierrez_4x3-ec24d668ee804fcb9fa9902ef4c24166.jpg" alt="Chocolate peanut butter protein bars on a plate." 
+    title="Chocolate Peanut Butter Protein Bars Recipe | allrecipes.com" height="400px" width="500px"><a href="./recipes/chocopeanutproteinbars.html">Chocolate Peanut Butter Protein Bars</a></li>
     </ul>
   </body>
+  <script src="./main.js"></script>
 </html>
