@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 /* html {
   color-scheme: light;
 } */
@@ -26,6 +21,7 @@ body {
   background-color: wheat;
   border-radius: 0.3rem;
   padding: 3px 7px;
+  margin-right: -60px;
 }
 
 .logo-title-1 {
@@ -44,6 +40,11 @@ body {
   height: auto;
   max-width: 350px; 
   margin: 10px auto;
+}
+
+#theme-toogle {
+  display: inline;
+  float: right;
 }
 
 a {
