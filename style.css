@@ -26,6 +26,14 @@ img, picture, svg, video {
   max-width: 100%;
 }
 
+a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  color: #0c0d0c;
+}
+
 header {
   display: block;
 }
@@ -107,12 +115,8 @@ header .ads i {
 }
 
 .featured-container-highlight a {
-  display: block;
-  width: 100%;
-  text-decoration: none;
   font-size: 1.8em;
   font-weight: 700;
-  color: #0c0d0c;
 }
 
 a:hover {
@@ -144,7 +148,31 @@ a:hover {
 .explore-section h2 {
   text-align: center; 
   font-size: 2.1rem;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.explore-section .explore {
+  display: inline-block;
+  width: 370px;
+  margin-right: 37px;
+}
+
+.explore-section .explore:last-of-type {
+  margin-right: 0;
+}
+
+.dish-container {
+  margin: 0 auto;
+}
+
+.dish-container a {
+  font-size: 1.2rem;
+}
+
+.dish-container img {
+  height: auto;
+  margin-bottom: 10px;
+
 }
 
 #theme-toogle {
@@ -156,5 +184,6 @@ a:hover {
   height: 64px;
   border-top: 1px solid #ccc;
   background-color: #fff;
-  padding-top: 20px
+  padding-top: 20px;
+  margin-top: 300px;
 }
