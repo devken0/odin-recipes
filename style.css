@@ -123,9 +123,9 @@ a:hover {
   text-decoration: underline;
 }
 
-.featured-container a:hover,.explore-section a:hover {
+/* .featured-container a:hover,.explore-section a:hover {
   background-color: #f7ae31ce;
-}
+} */
 
 .featured-container-highlight a img {
   height: auto;
