@@ -157,8 +157,8 @@ a:hover {
 
 .explore-section .explore {
   display: inline-block;
-  width: 370px;
-  margin-right: 37px;
+  width: 300px;
+  margin-right: 155px;
 }
 
 .explore-section .explore:last-of-type {
@@ -170,13 +170,12 @@ a:hover {
 }
 
 .dish-container a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .dish-container img {
   height: auto;
-  margin-bottom: 10px;
-
+  margin-bottom: 15px;
 }
 
 #theme-toogle {
